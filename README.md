@@ -28,7 +28,7 @@ I tried to club them together as shown in image
 
 ![Image of clustering](mind_clustering.png)
 
-- [x] Gather data
+- [x] Gather data in `raw_blog_content.csv`
 - [ ] Clean data
 - [ ] Build Feature
 - [ ] Create Model
