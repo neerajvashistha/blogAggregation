@@ -162,7 +162,7 @@ def generate_candidate_keyword_scores(phrase_list, word_score, min_keyword_frequ
 
 
 class Rake(object):
-    def __init__(self, stop_words_path, min_char_length=1, max_words_length=3, min_keyword_frequency=1):
+    def __init__(self, stop_words_path, min_char_length=4, max_words_length=3, min_keyword_frequency=3):
         self.__stop_words_path = stop_words_path
         self.__stop_words_pattern = build_stop_word_regex(stop_words_path)
         self.__min_char_length = min_char_length
